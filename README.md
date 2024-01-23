@@ -14,3 +14,13 @@ Using Ray on Slurm clusters, with Posit Workbench!
 2. Ignored [pengzhenghao](https://github.com/pengzhenghao/use-ray-with-slurm) 's work -- 4 years makes me suspicious we're likely to see the same issues as above
 3. Used the [NERSC](https://github.com/NERSC/slurm-ray-cluster) submission scripts -- worked like a charm!
 4. Experimented with injecting dependencies. [venvs work!](submit-ray-cluster.sbatch#L15)
+
+
+## Shells on Shells on Shells
+
+### Running ray jobs on SLURM
+
+Super simple, in this implementation. Run the job:
+```shell
+sbatch submit-ray-cluster.sbatch
+```
