@@ -11,6 +11,9 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=4
 
+# debugging
+echo $pwd
+
 # Load modules or your own conda environment here
 source /home/posit0002/ray-of-slurm/.venv/bin/activate
 
